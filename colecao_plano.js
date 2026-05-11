@@ -1,9 +1,9 @@
 use('academia_jiu_jitsu');
 
 // Dropa a coleção caso já exista
-db.plano.drop();
+db.planos.drop();
 
-db.plano.insertMany([
+db.planos.insertMany([
     {
         _id: 1,
         titulo: "Mensal Básico",
