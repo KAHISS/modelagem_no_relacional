@@ -1,7 +1,7 @@
 use('academia_jiu_jitsu');
 
 db.pagamentos.insertOne({
-    aluno_id: 10,
+    aluno_id: 11,
     registro_financeiro: {
         plano_id: 1, 
         titulo_snapshot: "Mensal Básico",
