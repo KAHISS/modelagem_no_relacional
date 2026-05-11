@@ -4,7 +4,6 @@ db.pagamentos.insertOne({
     aluno_id: 11,
     registro_financeiro: {
         plano_id: 1, 
-        titulo_snapshot: "Mensal Básico",
         valor_cobrado: NumberDecimal("130.00"),
         tipo: "Plano"
     },

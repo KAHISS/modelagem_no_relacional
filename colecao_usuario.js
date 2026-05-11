@@ -30,6 +30,20 @@ db.usuarios.insertOne({
         ],
         termos_assinados: [
             { termo_id: 1, data_assinatura: ISODate("2024-01-01T00:00:00Z") }
+        ],
+        planos_assinados: [
+            { 
+                plano_id: 1, 
+                data_assinatura: ISODate("2024-01-01T00:00:00Z"),
+                valor: NumberDecimal("130.00")
+            }
+        ],
+        observacoes: [
+            {
+                instrutor_id: 2,
+                conteudo: "Muito bom",
+                data_observacao: ISODate("2024-01-01T00:00:00Z")
+            }
         ]
     },
     instrutor_info: {
